@@ -3,7 +3,7 @@ FROM alpine:edge
 ARG AUUID="65231a7e-643e-44e8-80ca-5e81e11d0f08"
 ARG CADDYIndexPage="https://github.com/Externalizable/bongo.cat/archive/master.zip"
 ARG ParameterSSENCYPT="chacha20-ietf-poly1305"
-ARG PORT=80
+ARG PORT=8080
 
 ADD etc/Caddyfile /tmp/Caddyfile
 ADD etc/xray.json /tmp/xray.json
